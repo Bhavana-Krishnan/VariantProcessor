@@ -50,7 +50,7 @@ To learn more about VCF files, please refer to: [VCF-Variant-Call-Format](https:
     - Run the script using the command "python VariantProcessor.py"
 
     ```bash
-    pip install -r requirements.txt
+    python VariantProcessor.py
     ```
 
 ## Example
@@ -59,7 +59,7 @@ To learn more about VCF files, please refer to: [VCF-Variant-Call-Format](https:
 # Example usage of VariantProcessor
 if __name__ == "__main__":
     input_file = ".\\VariantProcessor\\input\\exampleVCF.vcf"
-    output_file = ".\\VariantProcessor\\output\\processed_data.csv"
+    output_file = ".\\VariantProcessor\\output\\Exampleprocessed_data.csv"
     working_dir = ".\\VariantProcessor\\output\\"
     processor = VariantProcessor(input_file)
     processor.process_variants()
